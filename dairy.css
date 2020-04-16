@@ -1,0 +1,24 @@
+body{
+    background: url(https://i.pinimg.com/originals/8b/b3/60/8bb3603626ab1bd004d685ca1a1e0d19.gif);
+    background-size: cover;
+}
+
+.one{
+    border: black solid 2px;
+    color: rgb(86, 15, 119);
+}
+.two{
+    border: black solid 2px;
+    color: palevioletred;
+}
+.day{
+    font-size: 30px;
+}
+h1:hover{
+    color:purple;
+}
+
+li {
+    color: rgb(170, 10, 63);
+    font-size: 30;
+}
