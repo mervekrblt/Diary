@@ -1,24 +1,44 @@
-body{
-    background: url(https://i.pinimg.com/originals/8b/b3/60/8bb3603626ab1bd004d685ca1a1e0d19.gif);
+body { 
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/000/180/334/original/e-learning.jpg');
+    background-attachment: scroll;
+    background-position: center;
     background-size: cover;
 }
+
+body::after {
+content: "";
+background: white;
+opacity: 0.5;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: fixed;
+z-index: -1;
+}
+
 
 .one{
     border: black solid 2px;
     color: rgb(86, 15, 119);
+    font-size: 50px;
 }
 .two{
     border: black solid 2px;
     color: palevioletred;
+    font-size: 50px;
 }
 .day{
-    font-size: 30px;
+    font-size: 40px;
+    color: palevioletred;
 }
-h1:hover{
-    color:purple;
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: sandybrown;
 }
 
 li {
-    color: rgb(170, 10, 63);
+    color: rgb(86, 15, 119);
     font-size: 30;
 }
