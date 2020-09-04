@@ -1,1 +1,1 @@
-[My dairy page](https://mervekrblt.github.io/Dairy/)
+[My diary page](https://mervekrblt.github.io/Diary/)
