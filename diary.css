@@ -2,7 +2,7 @@ body {
     background: url('https://static.vecteezy.com/system/resources/thumbnails/000/180/334/original/e-learning.jpg');
     background-attachment: scroll;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 body::after {
