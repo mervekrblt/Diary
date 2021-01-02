@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1581816163783-7d868ba11739?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;  
+    font-size: larger; 
+}
+
+html{
+    margin-top: 20px;
+    border: pink 5px solid;
+    max-width: 150vh;
+    margin: 0 auto;
+    box-shadow: 10px 10px 0 rgba(219, 89, 104, 0.3);
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    border-right: pink 3px solid;
+    border-bottom:  pink 3px solid;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 50px;
+    align-items: center;
+    border-bottom:  pink 3px solid;
+}
+
+a{
+    color: rgb(160, 44, 67);
+}
