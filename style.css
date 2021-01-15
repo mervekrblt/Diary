@@ -11,10 +11,10 @@ body{
 
 html{
     margin-top: 20px;
-    border: pink 5px solid;
+    border: black 5px solid;
     max-width: 150vh;
     margin: 0 auto;
-    box-shadow: 10px 10px 0 rgba(219, 89, 104, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .date{
@@ -22,8 +22,8 @@ html{
     flex-direction: column;
     justify-content: center;
     margin-right: 50px;
-    border-right: pink 3px solid;
-    border-bottom:  pink 3px solid;
+    border-right: black 3px solid;
+    border-bottom:  black 3px solid;
 }
 
 
@@ -38,7 +38,7 @@ html{
     justify-content: space-evenly;
     min-height: 50px;
     align-items: center;
-    border-bottom:  pink 3px solid;
+    border-bottom:  black 3px solid;
 }
 
 a{
