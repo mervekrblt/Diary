@@ -44,3 +44,8 @@ html{
 a{
     color: rgb(160, 44, 67);
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
